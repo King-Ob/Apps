@@ -12,13 +12,7 @@ namespace AwesomeApp
 
             MainPage = new MainPage();
         }
-        int count = 0;
-        private void Button_Clicked(object sender, System.EventArgs e)
-        {
-            count++;
-
-            ((Button)sender).Text = $"You clicked {count} times.";
-        }
+       
         protected override void OnStart()
         {
         }
